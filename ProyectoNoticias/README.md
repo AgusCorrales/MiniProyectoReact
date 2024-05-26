@@ -4,27 +4,19 @@ Este proyecto es una aplicación web desarrollada en React que muestra noticias 
 # Instalación
 Para ejecutar este proyecto localmente, sigue estos pasos:
 
-Clona el repositorio en tu máquina local:
-
-bash
-Copiar código
+1- Clona el repositorio en tu máquina local:
 git clone <URL-del-repositorio>
-Navega hasta el directorio del proyecto:
 
-bash
-Copiar código
+2- Navega hasta el directorio del proyecto:
 cd <directorio-del-proyecto>
-Instala las dependencias:
 
-bash
-Copiar código
+3- Instala las dependencias:
 npm install
-Inicia el servidor de desarrollo:
 
-bash
-Copiar código
+4- Inicia el servidor de desarrollo:
 npm start
-Abre tu navegador y visita http://localhost:3000 para ver la aplicación.
+
+- Abre tu navegador y visita http://localhost:3000 para ver la aplicación.
 
 # Características
 - Visualización de Noticias: Muestra noticias relacionadas con Tesla obtenidas de una API.
