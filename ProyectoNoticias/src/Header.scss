@@ -1,0 +1,40 @@
+$header-background-color: #333333;
+$header-text-color: #ffffff;
+$header-link-color: #e82127;
+$header-link-hover-color: #c1171e;
+$header-padding: 1rem;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: $header-background-color;
+  padding: $header-padding;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed; 
+  width: 100%;
+  z-index: 1000;
+
+  nav {
+    display: flex;
+    gap: 1rem;
+
+    .nav-link {
+      a {
+        color: $header-link-color;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 500;
+
+        &:hover {
+          color: $header-link-hover-color;
+        }
+      }
+    }
+  }
+}

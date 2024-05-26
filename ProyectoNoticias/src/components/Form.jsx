@@ -30,7 +30,6 @@ const Form = () => {
     };
     const handleOnSubmit = (e) => {
         e.preventDefault();
-        console.log(data);
         localStorage.setItem('new', JSON.stringify(data))
         setData(initialValue);
         setTimeout(()=>{
