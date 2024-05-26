@@ -8,7 +8,7 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 git clone <URL-del-repositorio>
 
 2- Navega hasta el directorio del proyecto:
-cd <directorio-del-proyecto>
+cd (directorio-del-proyecto)
 
 3- Instala las dependencias:
 npm install
@@ -33,6 +33,16 @@ npm start
 - React: Biblioteca de JavaScript para construir interfaces de usuario.
 - React Router: Para el enrutamiento del lado del cliente.
 - Axios: Para realizar solicitudes HTTP para obtener datos de noticias.
+
+# Imagenes
+<img width="1510" alt="image" src="https://github.com/AgusCorrales/MiniProyectoReact/assets/162991987/2ac023a8-6865-4b5e-b8fa-7a68498cdaec">
+
+<img width="1510" alt="image" src="https://github.com/AgusCorrales/MiniProyectoReact/assets/162991987/8a735df2-e058-4afa-8b17-ebd621f1a604">
+
+<img width="1512" alt="image" src="https://github.com/AgusCorrales/MiniProyectoReact/assets/162991987/b9ae5096-5221-477e-b0f4-7dc30df61679">
+
+
+
 
 # Créditos
 Este proyecto fue desarrollado por Agustin Corrales.
