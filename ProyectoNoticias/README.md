@@ -45,5 +45,5 @@ npm start
 
 
 # Créditos
-Este proyecto fue desarrollado por Agustin Corrales.
+Este proyecto fue desarrollado por Agustin Corrales Zarate.
 
