@@ -27,7 +27,7 @@ body {
     }
 
     h3 {
-      color: #e82127; // Rojo Tesla
+      color: #e82127; 
       font-size: 1.5rem;
     }
 
@@ -54,7 +54,7 @@ body {
 
     a {
       display: block;
-      background-color: #e82127; // Rojo Tesla
+      background-color: #e82127; 
       color: white;
       border: none;
       border-radius: 5px;
@@ -64,12 +64,14 @@ body {
       transition: background-color 0.3s ease;
 
       &:hover {
-        background-color: #c1171e; // Rojo oscuro Tesla
+        background-color: #c1171e; 
       }
     }
 
     &.active a {
-      background-color: #c1171e; // Rojo oscuro Tesla para el activo
+      background-color: #c1171e; 
+      color: #fff;
+      
     }
   }
 }
