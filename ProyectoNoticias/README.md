@@ -16,7 +16,6 @@ npm install
 4- Inicia el servidor de desarrollo:
 npm start
 
-- Abre tu navegador y visita http://localhost:3000 para ver la aplicación.
 
 # Características
 - Visualización de Noticias: Muestra noticias relacionadas con Tesla obtenidas de una API.
