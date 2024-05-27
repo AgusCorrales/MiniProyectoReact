@@ -17,7 +17,16 @@ const NewState = () => {
     const filteredNews = news.filter((item, index) => index >= 10);
     const currentItems = filteredNews.slice(indexOfFirstItem, indexOfLastItem);
     
-    const paginate = pageNumber => setCurrentPage(pageNumber);
+    const paginate = pageNumber =>{ 
+        scrollToTop();
+        setCurrentPage(pageNumber);
+    };
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      };
 
     
     return (
